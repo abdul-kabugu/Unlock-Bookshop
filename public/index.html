@@ -10,6 +10,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+   
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,7 +25,30 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Unlock Book Shop</title>
+     <script>
+      (function(d, s) {
+        var js = d.createElement(s),
+          sc = d.getElementsByTagName(s)[0];
+        js.src = "https://paywall.unlock-protocol.com/static/unlock.latest.min.js";
+        sc.parentNode.insertBefore(js, sc);
+      }(document, "script"));
+    </script>
+    
+    <script>
+      var unlockProtocolConfig = {
+        "network": 4, // Network ID (1 is for mainnet, 4 for rinkeby, 100 for xDai, etc)  
+        "locks": {
+          "0x445Ba2A4d3eC90315dFD7CC65F41c85409353FBE": {
+            "name": "Abdul checkout"
+          }
+        },
+        "icon": "https://unlock-protocol.com/static/images/svg/unlock-word-mark.svg",
+        "callToAction": {
+          "default": "Please buy  this  nft  to get access"
+        }
+      }
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -39,5 +63,8 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+   
+    
+   
   </body>
 </html>

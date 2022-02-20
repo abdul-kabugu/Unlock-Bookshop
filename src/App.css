@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-container{
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #434343;
+  justify-content: space-between;
+  
+}
+.logo{
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 20px;
+  color: white;
+  cursor: pointer;
+  font-style: italic;
+}
+.unlock-starter{
+  line-height: 500px;
+  font-weight: 700;
+  text-decoration: line-through;
+  color: red;
+  font-style: normal;
+  
+}
+.main-img{
+  width: 90vw;
+  height: 90vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.book-card{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 170px;
+  margin: 10px;
+}
+.card-img{
+  width: 150px;
+}
+.book-card-container{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.products-container{
+  width: 90vw;
+  padding: 15px 20px;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: 0 auto;
+}
+.card-btn{
+  padding: 7px 12px;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color: #1890ff;
+  outline: unset;
+  border: unset;
+  color: white;
+  
+}
+.card-title{
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.news-container{
+  width: 80vw;
+  background-color: #40a9ff;
+  padding: 20px 30px;
+
+  font-size: 21px;
+  margin: 0 auto;
+  border-radius: 14px;
+}
+.update-header{
+  display: flex;
+  justify-content: space-between;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.update-title{
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.update-body{
+  color: white;
+}
+.submit-btn{
+  margin-left: 20px;
+  padding: 7px 20px;
+  background-color: inherit;
+  color: white;
+  border-radius: 12px;
+  text-transform: capitalize;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.footer-continer{
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #595959;
+  color: white;
+  margin: 0 auto;
+  padding: 15px 23px;
+  margin-top: 10px;
+}
+.footer-titles{
+  color: white;
+}
+.social-container{
+  display: flex;
+  justify-content: space-between;
+}
+.container{
+  max-width: 1400px;
 }
