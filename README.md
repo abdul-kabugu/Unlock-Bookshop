@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+**#~~U~~nlock BookStore**
+##This Project is Created using React  and demonstrates how you can build your own Bookstore Site  And Add Lock   using Unlock-protocol to manage membeship 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+https://user-images.githubusercontent.com/68326324/154878581-ead6faac-1b55-4de4-ac37-cf3a6ae84e49.mp4
 
-### `npm start`
+**#⭐️ Star us**
+##If this boilerplate helps you build Unlock  dapps faster - please star this project, every star makes us very happy!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**#🚀 Quick Start**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+###Clone or fork Unlock-Bookshop:
 
-### `npm test`
+https://github.com/abdul-kabugu/Unlock-Bookshop.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd unlock-paywall
+yarn install
 
-### `npm run build`
+##Create Your Lock
+[(https://app.unlock-protocol.com/dashboard)]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click  Create Lock  Add Duration Quantity Name  Image 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Provide your Lock
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open HTML FILe
 
-### `npm run eject`
+In Configuration Script  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-Repalce Locks  With Your Lock
+-and Name With Your Site Name 
+-Network With Your  Network  id number
+-icon  with your  icon Url
+-callToAction  
+-default   with your  default  string
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+🚴‍♂️ Run your App:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+yarn start
+or if your  using npm
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+run npm start
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
