@@ -7,7 +7,8 @@
 https://user-images.githubusercontent.com/68326324/154878581-ead6faac-1b55-4de4-ac37-cf3a6ae84e49.mp4
 
 **#⭐️ Star us**
-##If this boilerplate helps you build Unlock  dapps faster - please star this project, every star makes us very happy!
+
+>*If this boilerplate helps you build Unlock  dapps faster - please star this project, every star makes us very happy!*
 
 **#🚀 Quick Start**
 
