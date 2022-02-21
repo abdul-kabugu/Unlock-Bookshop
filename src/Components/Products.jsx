@@ -9,10 +9,12 @@ const Products = ({payWallStatus}) => {
     const [isShowModal, setShowModal] = useState(false)
     const  showModal = () => {
         isShowModal === false? setShowModal(true) : setShowModal(false)
-        console.log("show modal clicked   " + isShowModal)
+        
     }
     console.log("this  is is paywall from product" +  " " + payWallStatus)
     return <div className=' container products-container'>
+      
+       <Title>Trending  books</Title>
        {isShowModal && <Alert 
           message="Success"
       description="This  Is  Demo No  Real Books 
@@ -22,8 +24,7 @@ const Products = ({payWallStatus}) => {
       showIcon
        
        
-       />}
-       <Title>Trending  books</Title> 
+       />} 
        <div className='book-card-container'>
     
        {Books.map(book =>(
@@ -31,8 +32,7 @@ const Products = ({payWallStatus}) => {
            <div className='book-card' key={book.id}>
                <img src={book.img}  alt='' className='card-img'   />
                <p className='card-title'>{book.title}</p>
-               {//payWallStatus === 'unlock' && book.isFree !== true?  <button className='card-btn'> <DownloadOutlined  style={{color: "white", fontSize: "20px",}}/> donload </button>:
-               //<button className='card-btn'> <DownloadOutlined  style={{color: "white", fontSize: "20px",}}/> buy NFT</button>
+               {
                 payWallStatus === 'unlocked'?  <button className='card-btn' onClick={showModal}> <DownloadOutlined  style={{color: "white", fontSize: "20px",}}/> donload </button>:
                 <button className='card-btn' onClick={() => window.unlockProtocol && window.unlockProtocol.loadCheckoutModal()}> <DownloadOutlined  style={{color: "white", fontSize: "20px",}}/> buy NFT</button>
  
