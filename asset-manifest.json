@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Unlock-Bookshop/static/css/main.8bfbbf2d.css",
+    "main.js": "/Unlock-Bookshop/static/js/main.54adef3f.js",
+    "index.html": "/Unlock-Bookshop/index.html",
+    "main.8bfbbf2d.css.map": "/Unlock-Bookshop/static/css/main.8bfbbf2d.css.map",
+    "main.54adef3f.js.map": "/Unlock-Bookshop/static/js/main.54adef3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8bfbbf2d.css",
+    "static/js/main.54adef3f.js"
+  ]
+}
