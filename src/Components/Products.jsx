@@ -50,7 +50,4 @@ const Products = ({payWallStatus}) => {
 export default Products;
 
 
-   // payWallStatus === 'locked'  && book.isFree === 'false'?
-    //><button className='card-btn'> <DownloadOutlined  style={{color: "white", fontSize: "20px",}}/> buy NFT</button:
-  //   <button className='card-btn'> <DownloadOutlined  style={{color: "white", fontSize: "20px",}}/> donload </button>
-   
+  
