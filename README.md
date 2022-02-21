@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/68326324/154878581-ead6faac-1b55-4de4-
 
 **#🚀 Quick Start**
 
-###Clone or fork Unlock-Bookshop:
+**Clone or fork Unlock-Bookshop:**
 
 https://github.com/abdul-kabugu/Unlock-Bookshop.git
 
