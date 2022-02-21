@@ -31,10 +31,15 @@ Open HTML FILe
 In Configuration Script  
 
 -Repalce Locks  With Your Lock
+
 -and Name With Your Site Name 
+
 -Network With Your  Network  id number
+
 -icon  with your  icon Url
--callToAction  
+
+-callToAction 
+
 -default   with your  default  string
 
 🚴‍♂️ Run your App:
