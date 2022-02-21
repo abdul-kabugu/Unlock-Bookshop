@@ -13,9 +13,7 @@ const Products = ({payWallStatus}) => {
     }
     console.log("this  is is paywall from product" +  " " + payWallStatus)
     return <div className=' container products-container'>
-      
-       <Title>Trending  books</Title>
-       {isShowModal && <Alert 
+      {isShowModal && <Alert 
           message="Success"
       description="This  Is  Demo No  Real Books 
       If You Like This Demo Let Me know On twitter / unlock  Discord server
@@ -24,7 +22,9 @@ const Products = ({payWallStatus}) => {
       showIcon
        
        
-       />} 
+       />}
+       <Title>Trending  books</Title>
+        
        <div className='book-card-container'>
     
        {Books.map(book =>(
