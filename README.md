@@ -33,7 +33,7 @@ Open HTML FILe
 
 In Configuration Script  
 
--Repalce Locks  With Your Lock
+-Replace Locks  With Your Lock
 
 -and Name With Your Site Name 
 
